@@ -22,6 +22,8 @@ int binary_tree_is_full(const binary_tree_t *tree)
 
 		if (left_check == right_check)
 			return (1);
+		else
+			return (0);
 	}
 	return (0);
 }
